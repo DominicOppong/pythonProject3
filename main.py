@@ -5,7 +5,7 @@ def fibo(n):
     y = 1
     print (x)
     print (y)
-    for i in range (2,n):
+    for i in range (0,n):
         z = (x+y)
         x = y
         y = z
